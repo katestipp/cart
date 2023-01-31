@@ -1,1 +1,51 @@
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  p {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+/* Navigation bar */
+
+/* General */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+  .justify-content-center {
+    justify-content: center;
+  }
+  .nav-item {
+    margin: 0px 15px;
+  }
+  .navbar-brand {
+    font-family: 'Oleo Script Swash Caps', cursive 
+  }
+
+/* Jumbotron  */
+.jumbotron {
+    background-image: url(https://carrolltonart.wordpress.com/portfolio-our-events-and-projects/#jp-carousel-119);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* Buttons */
+
+.btn-primary {
+    background-color: teal;
+}
 
